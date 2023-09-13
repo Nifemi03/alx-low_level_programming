@@ -14,6 +14,4 @@ if (i == c)
 lower = 1;
 }
 return (lower);
-
- 
 }
