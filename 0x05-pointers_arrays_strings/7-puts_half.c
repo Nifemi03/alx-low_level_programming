@@ -14,9 +14,9 @@ while (str[a] != '\0')
 a++;
 if (a % 2 == 0)
 c = a / 2;
-	else
-		c = (a + 1) / 2;
-	for (b = c; b < a; b++)
-		_putchar(str[b]);
-	_putchar('\n');
+else
+c = (a + 1) / 2;
+for (b = c; b < a; b++)
+_putchar(str[b]);
+_putchar('\n');
 }
